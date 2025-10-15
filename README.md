@@ -3,7 +3,7 @@ Another neural network library in Python. I wouldnt use this. Looking to learn s
 
 
 # Install
-If you still are interested you can probably install by running the following commands.
+
 
     - python3 -m venv env && source env/bin/activate
     - git clone https://github.com/newpolygons/flatgrad.git
