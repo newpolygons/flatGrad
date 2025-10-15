@@ -20,9 +20,7 @@ def test_sanity_check():
     y.backward()
     xpt, ypt = x, y
 
-    # forward pass went well
     assert ymg.data == ypt.data.item()
-    # backward pass went well
     assert xmg.grad == xpt.grad.item()
     
 def test_more_ops():
@@ -59,9 +57,7 @@ def test_more_ops():
     apt, bpt, gpt = a, b, g
 
     tol = 1e-6
-    # forward pass went well
     assert abs(gmg.data - gpt.data.item()) < tol
-    # backward pass went well
     assert abs(amg.grad - apt.grad.item()) < tol
     assert abs(bmg.grad - bpt.grad.item()) < tol
 
