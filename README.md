@@ -11,4 +11,6 @@ Another neural network library in Python. I wouldnt use this. Looking to learn s
     - python3 -m pip install -e  .
 
 # Credits 
-    - Micrograd (Repo is currently basically a clone until I learn to implement things)
+    - Micrograd
+    - TinyGrad
+    - Math
