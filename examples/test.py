@@ -1,7 +1,6 @@
 # Do things run?
 import torch
 from flatgrad.engine import Value
-from graphviz import Digraph
 
 
 def test_sanity_check():
@@ -26,7 +25,6 @@ def test_sanity_check():
     # backward pass went well
     assert xmg.grad == xpt.grad.item()
     
-
 def test_more_ops():
     a = Value(-4.0)
     b = Value(2.0)
