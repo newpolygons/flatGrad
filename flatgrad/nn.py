@@ -1,6 +1,7 @@
-# neural network
+# inspired by https://github.com/karpathy/micrograd/blob/master/micrograd/engine.py
+
 import random
-from flat.engine import Value
+from flatgrad.engine import Value
 
 class Module:
     def zeroGrad(self):
