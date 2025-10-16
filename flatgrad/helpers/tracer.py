@@ -1,4 +1,4 @@
-# inspired by https://github.com/karpathy/micrograd/blob/master/micrograd/engine.py
+# inspired by https://github.com/karpathy/micrograd/blob/master/trace_graph.ipynb
 
 import matplotlib.pyplot as plt
 import random

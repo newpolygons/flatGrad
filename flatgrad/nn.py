@@ -1,4 +1,4 @@
-# inspired by https://github.com/karpathy/micrograd/blob/master/micrograd/engine.py
+# inspired by https://github.com/karpathy/micrograd/blob/master/micrograd/nn.py
 
 import random
 from flatgrad.engine import Value
