@@ -1,5 +1,5 @@
 # inspired by https://github.com/karpathy/micrograd/blob/master/trace_graph.ipynb
-
+# this will be cool eventually
 import matplotlib.pyplot as plt
 import random
 from flatgrad.engine import Value
@@ -44,6 +44,9 @@ def splt(xAxis='', yAxis='', typeO='', title='Graph'):
 
 
 
+'''
+
+Act like you dont see this
 
 random.seed(1337)
 n = nn.Neuron(2)
@@ -53,4 +56,5 @@ y.backward()
 
 dot = drawGraph(y)
 
-dot.render('gout', format='png', cleanup=True)
+dot.render('graphout', format='png', cleanup=True)
+'''

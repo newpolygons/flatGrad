@@ -88,3 +88,11 @@ class Value:
 
     def __repr__(self):
         return f"Value(data={self.data}, grad={self.grad})"
+
+
+
+# Begin the momentus task that is the tensor... 
+
+class Tensor():
+    #wait im actually learning new things here
+    pass

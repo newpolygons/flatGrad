@@ -17,7 +17,6 @@ setuptools.setup(
         "graphviz",
         "numpy",
         "matplotlib",
-        "scikit-learn",
 
     ],
     classifiers=[
