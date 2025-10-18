@@ -26,3 +26,25 @@ def sgd(x, y, learningRate, epochs, batchSize):
             print(f"Epoch {epoch}, Cost: {cost}")
     return theta, costHistory
 
+np.random.seed(52)
+x = 2 * np.random.rand(100, 1)
+y = 4 + 3 * x + np.random.randn(100, 1)
+
+
+theta, cost = sgd(x,y,learningRate=0.1,epochs=5000,batchSize=1)
+
+plt.figure('Cost Function During Training')
+plt.plot(cost)
+plt.xlabel('Epochs')
+plt.ylabel('Cost (MSE)')
+plt.title('Cost Function during Training')
+
+plt.figure('Linear Regression')
+plt.scatter(x, y, color='blue', label='Data points')
+plt.plot(x, np.c_[np.ones((x.shape[0], 1)), x].dot(
+    theta), color='red', label='SGD fit line')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Linear Regression using Stochastic Gradient Descent')
+plt.legend()
+plt.show()

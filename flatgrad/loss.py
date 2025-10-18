@@ -17,3 +17,8 @@ def mseGradient(yTrueValue, yPredictedValue):
 
 
 # https://en.wikipedia.org/wiki/Hinge_loss
+def hing():
+    return
+
+
+# implement categ cross-entropy for mnist
